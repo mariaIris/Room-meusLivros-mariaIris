@@ -44,7 +44,7 @@ public class Lista extends AppCompatActivity {
 
         if(livros.isEmpty()){
             finish();
-            Toast.makeText(this,"Não há registro de livros:", LENGTH_LONG).show();
+            Toast.makeText(this,"Não há registro de livros:", Toast.LENGTH_SHORT).show();
             return;
         }
 

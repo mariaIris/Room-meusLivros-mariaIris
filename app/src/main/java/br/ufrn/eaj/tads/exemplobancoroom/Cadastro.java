@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RatingBar;
 
+@SuppressWarnings("ALL")
 public class Cadastro extends AppCompatActivity {
     EditText editTextTitulo;
     EditText editTextAutor;
